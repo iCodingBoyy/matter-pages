@@ -1,0 +1,132 @@
+ifeval::["{docname}" == "main"]
+////
+endif::[]
+Copyright (C) Zigbee Alliance (2021). All rights reserved. This
+information within this document is the property of the Zigbee
+Alliance and its use and disclosure are restricted.
+
+Elements of Zigbee Alliance specifications may be subject to third
+party intellectual property rights, including without limitation,
+patent, copyright or trademark rights (such a third party may or may
+not be a member of the Zigbee Alliance). The Zigbee Alliance is not
+responsible and shall not be held responsible in any manner for
+identifying or failing to identify any or all such third party
+intellectual property rights.
+
+This document and the information contained herein are provided on an
+"AS IS" basis and the Zigbee Alliance DISCLAIMS ALL WARRANTIES EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO (A) ANY WARRANTY THAT THE USE
+OF THE INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OF THIRD
+PARTIES (INCLUDING WITHOUT LIMITATION ANY INTELLECTUAL PROPERTY RIGHTS
+INCLUDING PATENT, COPYRIGHT OR TRADEMARK RIGHTS) OR (B) ANY IMPLIED
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE
+OR NON-INFRINGEMENT. IN NO EVENT WILL THE ZIGBEE ALLIANCE BE LIABLE
+FOR ANY LOSS OF PROFITS, LOSS OF BUSINESS, LOSS OF USE OF DATA,
+INTERRUPTION OF BUSINESS, OR FOR ANY OTHER DIRECT, INDIRECT, SPECIAL
+OR EXEMPLARY, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES OF ANY
+KIND, IN CONTRACT OR IN TORT, IN CONNECTION WITH THIS DOCUMENT OR THE
+INFORMATION CONTAINED HEREIN, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH LOSS OR DAMAGE.
+
+All company, brand and product names may be trademarks that are the
+sole property of their respective owners.
+
+This legal notice must be included on all copies of this document that
+are made.
+
+Zigbee Alliance
+508 Second Street, Suite 206
+Davis, CA 95616, USA
+ifeval::["{docname}" == "main"]
+////
+endif::[]
+
+[graphviz]
+....
+digraph G {
+    layout=dot
+    style="rounded"
+    spline=true
+    fontsize=12
+    fontname="Helvetica"
+    rankorder="LR"
+    node [fontname="Helvetica"]
+    subgraph cluster_paa {
+        color="black"
+        style="rounded,dotted"
+        label="PAAs - Federated"
+        subgraph cluster_paa1 {
+            color="black"
+    	    style="rounded,plain"
+            label="Self Signed"
+            paa1cert [label="Name, pubKey",shape="box",style="dotted"]
+            paa1cert -> paa1cert
+        }
+        subgraph cluster_paa2 {
+            color="black"
+    	    style="rounded,plain"
+            label="Self Signed"
+            paa2cert [label="Name, pubKey",shape="box",style="dotted"]
+            paa2cert -> paa2cert
+        }
+        subgraph cluster_paadots {
+            color="white"
+            label=""
+            dot3 [shape=point]
+            dot4 [shape=point]
+            dot5 [shape=point]
+        }
+    }
+    subgraph cluster_vendor {
+        color="white"
+        style="rounded,dotted"
+        label=""
+        labelloc="b"
+        subgraph cluster_vendor1x {
+            label="Vendor1, PAI CA"
+            color="white"
+            subgraph cluster_vendor1 {
+                color="black"
+    	        style="rounded,plain"
+                label="PAA Signed"
+                vendor1cert [label="Name, pubKey",shape="box",style="dotted"]
+            }
+        }
+        subgraph cluster_vendor2x {
+            label="Vendor1, PAI CA\nProduct2"
+            color="white"
+            subgraph cluster_vendor2 {
+                color="black"
+    	        style="rounded,plain"
+                label="PAA Signed"
+                vendor2cert [label="Name, pubKey",shape="box",style="dotted"]
+            }
+        }
+        subgraph cluster_vendor3x {
+            label="Vendor3, PAI CA"
+            color="white"
+            subgraph cluster_vendor3 {
+                color="black"
+    	        style="rounded,plain"
+                label="PAA Signed"
+                vendor3cert [label="Name, pubKey",shape="box",style="dotted"]
+            }
+        }
+    }
+    paa1cert -> vendor1cert
+    paa1cert -> vendor2cert
+    paa2cert -> vendor3cert
+    vid1pid1 [style="dotted",shape="box",label="vid1,pid1"]
+    vid1pid3 [style="dotted",shape="box",label="vid1,pid3"]
+    vid1pid2a [style="dotted",shape="box",label="vid1,pid2"]
+    vid1pid2b [style="dotted",shape="box",label="vid1,pid2"]
+    vid3pid1 [style="dotted",shape="box",label="vid3,pid1"]
+    vid3pidN [style="dotted",shape="box",label="vid3,pidN"]
+    vendor1cert -> vid1pid1
+    vendor1cert -> vid1pid3
+    vendor2cert -> vid1pid2a
+    vendor2cert -> vid1pid2b
+    vendor3cert -> vid3pid1
+    vendor3cert -> vid3pidN
+}
+....

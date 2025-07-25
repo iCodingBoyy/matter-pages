@@ -1,0 +1,85 @@
+ifeval::["{docname}" == "main"]
+////
+endif::[]
+Copyright (C) Zigbee Alliance (2021). All rights reserved. This
+information within this document is the property of the Zigbee
+Alliance and its use and disclosure are restricted.
+
+Elements of Zigbee Alliance specifications may be subject to third
+party intellectual property rights, including without limitation,
+patent, copyright or trademark rights (such a third party may or may
+not be a member of the Zigbee Alliance). The Zigbee Alliance is not
+responsible and shall not be held responsible in any manner for
+identifying or failing to identify any or all such third party
+intellectual property rights.
+
+This document and the information contained herein are provided on an
+"AS IS" basis and the Zigbee Alliance DISCLAIMS ALL WARRANTIES EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO (A) ANY WARRANTY THAT THE USE
+OF THE INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OF THIRD
+PARTIES (INCLUDING WITHOUT LIMITATION ANY INTELLECTUAL PROPERTY RIGHTS
+INCLUDING PATENT, COPYRIGHT OR TRADEMARK RIGHTS) OR (B) ANY IMPLIED
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE
+OR NON-INFRINGEMENT. IN NO EVENT WILL THE ZIGBEE ALLIANCE BE LIABLE
+FOR ANY LOSS OF PROFITS, LOSS OF BUSINESS, LOSS OF USE OF DATA,
+INTERRUPTION OF BUSINESS, OR FOR ANY OTHER DIRECT, INDIRECT, SPECIAL
+OR EXEMPLARY, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES OF ANY
+KIND, IN CONTRACT OR IN TORT, IN CONNECTION WITH THIS DOCUMENT OR THE
+INFORMATION CONTAINED HEREIN, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH LOSS OR DAMAGE.
+
+All company, brand and product names may be trademarks that are the
+sole property of their respective owners.
+
+This legal notice must be included on all copies of this document that
+are made.
+
+Zigbee Alliance
+508 Second Street, Suite 206
+Davis, CA 95616, USA
+ifeval::["{docname}" == "main"]
+////
+endif::[]
+
+
+[graphviz]
+....
+digraph G {
+    layout=dot
+    style="rounded"
+    spline=true
+    fontsize=12
+    fontname="Helvetica"
+    
+    edge [fontsize=10, fontname="Helvetica",style=bold, fontcolor=darkGreen, color=darkgreen]
+    node [color=black,
+          fontsize=10,
+          fontname="Helvetica",
+          shape=record, 
+          fixedsize=true,
+          width=2.5]
+    subgraph cluster_Node{
+        label="Node Operational Certificate (NOC)"
+        color=darkGreen
+        fontcolor=darkGreen
+        NodeCertificate [label="{Subject:Node ID|Node Public Key|<node3>Issuer: ICA ID|<node4>Issuer Signature - ICA}"]
+    }
+    subgraph cluster_Intermediate {
+        label="Intermediate CA (ICA) certificate"
+        color=darkGreen
+        fontcolor=darkGreen
+        IntermediateCertificate [label="{<int1>Subject: ICA ID|<int2>ICA Public Key|<int3>Issuer: Root CA ID|<int4>Issuer Signature - Root CA}"]
+    }
+    subgraph cluster_Root {
+        label="Root CA certificate- Self Signed"
+        color=darkGreen
+        fontcolor=darkGreen
+        RootCertificate [label="{<root1>Subject:Root CA ID|<root2>Root CA Public Key|Issuer: Root CA ID|<root3>Root CA Signature}"]
+    }
+    NodeCertificate:node3:w -> IntermediateCertificate:int1:w [label="Certificate\nIssuance"]
+    IntermediateCertificate:int2 -> NodeCertificate:node4:e [label="Verify\nSignature"]
+    IntermediateCertificate:int3:w -> RootCertificate:root1:w [label="Certificate\nIssuance"]
+    RootCertificate:root2 -> IntermediateCertificate:int4:e [label="Verify\nSignature"]
+    RootCertificate:root2:w -> RootCertificate:root3:w [label="Verify\nSignature"]
+}
+....

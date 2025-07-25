@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 105.83334 82.020844"
+   height="82.020844mm"
+   width="105.83334mm">
+  <defs
+     id="defs2" />
+  <g
+     transform="translate(-50.270832,-103.85416)"
+     id="layer1">
+    <rect
+       ry="2.6458435"
+       y="111.79166"
+       x="54.239582"
+       height="42.333344"
+       width="19.843752"
+       id="rect374"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none" />
+    <g
+       transform="translate(3.3072967,48.947922)"
+       id="g385">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect376"
+         width="7.9375"
+         height="7.9375"
+         x="66.145836"
+         y="117.08333"
+         ry="0" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="68.564293"
+         y="122.56723"
+         id="text380"><tspan
+           id="tspan378"
+           x="68.564293"
+           y="122.56723"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">C</tspan></text>
+    </g>
+    <use
+       height="100%"
+       width="100%"
+       transform="translate(-3.3072993,-37.041667)"
+       x="0"
+       y="0"
+       xlink:href="#g385"
+       id="use389" />
+    <use
+       height="100%"
+       width="100%"
+       transform="translate(-3.3072993,-25.135417)"
+       id="use387"
+       xlink:href="#g385"
+       y="0"
+       x="0" />
+    <g
+       transform="translate(40.348964,48.947922)"
+       id="g397">
+      <rect
+         ry="0"
+         y="117.08333"
+         x="66.145836"
+         height="7.9375"
+         width="7.9375"
+         id="rect391"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none" />
+      <text
+         id="text395"
+         y="122.56723"
+         x="68.564293"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="122.56723"
+           x="68.564293"
+           id="tspan393">S</tspan></text>
+    </g>
+    <use
+       height="100%"
+       width="100%"
+       transform="translate(25.796867,-37.041667)"
+       x="0"
+       y="0"
+       xlink:href="#g397"
+       id="use401" />
+    <use
+       height="100%"
+       width="100%"
+       transform="translate(25.796867,-25.135417)"
+       id="use399"
+       xlink:href="#g397"
+       y="0"
+       x="0" />
+    <text
+       id="text423"
+       y="121.96503"
+       x="103.17545"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         y="121.96503"
+         x="103.17545"
+         id="tspan421">Pump configuration and control</tspan></text>
+    <text
+       id="text427"
+       y="134.20029"
+       x="103.18233"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         y="134.20029"
+         x="103.18233"
+         id="tspan425">Level control</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="103.04108"
+       y="146.12807"
+       id="text380-0"><tspan
+         id="tspan378-9"
+         x="103.04108"
+         y="146.12807"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">On/Off</tspan></text>
+    <rect
+       y="103.85416"
+       x="50.270832"
+       height="82.020844"
+       width="105.83334"
+       id="rect429"
+       style="fill:none;stroke:none;stroke-width:0.26458332" />
+    <text
+       id="text437"
+       y="108.60155"
+       x="64.48819"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332"
+         y="108.60155"
+         x="64.48819"
+         id="tspan435">Pump controller</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="142.12999"
+       y="108.33428"
+       id="text433"><tspan
+         id="tspan431"
+         x="142.12999"
+         y="108.33428"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">Pump</tspan></text>
+    <use
+       height="100%"
+       width="100%"
+       transform="translate(78.052085,1.0172526e-5)"
+       id="use455"
+       xlink:href="#rect374"
+       y="0"
+       x="0" />
+    <path
+       id="path457"
+       d="M 74.083332,144.86458 H 96.572915"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path459"
+       d="M 74.083332,132.95833 H 92.604166"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path461"
+       d="m 74.083332,121.05208 h 3.96875"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <use
+       height="100%"
+       width="100%"
+       transform="matrix(-1,0,0,1,206.375,3.3333334e-6)"
+       id="use463"
+       xlink:href="#path457"
+       y="0"
+       x="0" />
+    <use
+       height="100%"
+       width="100%"
+       transform="matrix(-1,0,0,1,206.375,3.3333334e-6)"
+       id="use465"
+       xlink:href="#path459"
+       y="0"
+       x="0" />
+    <use
+       height="100%"
+       width="100%"
+       transform="matrix(-1,0,0,1,206.375,3.3333334e-6)"
+       id="use467"
+       xlink:href="#path461"
+       y="0"
+       x="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="84.905754"
+       y="171.26822"
+       id="text475"><tspan
+         id="tspan473"
+         x="84.905754"
+         y="171.26822"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">= Client</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="122.90579"
+       y="171.26822"
+       id="text479"><tspan
+         id="tspan477"
+         x="122.90579"
+         y="171.26822"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">= Server</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="102.99371"
+       y="183.45323"
+       id="text483"><tspan
+         id="tspan481"
+         x="102.99371"
+         y="183.45323"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Arial, Arial_MSFontService, sans-serif;-inkscape-font-specification:'Arial, Arial_MSFontService, sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.26458332">Note: Device names are examples for illustration purposes only</tspan></text>
+    <use
+       id="use485"
+       xlink:href="#g385"
+       y="0"
+       x="0"
+       transform="translate(-3.3072992,-48.947917)"
+       width="100%"
+       height="100%" />
+    <use
+       id="use487"
+       xlink:href="#g397"
+       y="0"
+       x="0"
+       transform="translate(25.796867,-48.947917)"
+       width="100%"
+       height="100%" />
+    <rect
+       y="163.38542"
+       x="62.838547"
+       height="13.229166"
+       width="80.697914"
+       id="rect491"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none" />
+  </g>
+</svg>

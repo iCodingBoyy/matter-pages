@@ -1,0 +1,93 @@
+ifeval::["{docname}" == "main"]
+////
+endif::[]
+Copyright (C) Zigbee Alliance (2021). All rights reserved. This
+information within this document is the property of the Zigbee
+Alliance and its use and disclosure are restricted.
+
+Elements of Zigbee Alliance specifications may be subject to third
+party intellectual property rights, including without limitation,
+patent, copyright or trademark rights (such a third party may or may
+not be a member of the Zigbee Alliance). The Zigbee Alliance is not
+responsible and shall not be held responsible in any manner for
+identifying or failing to identify any or all such third party
+intellectual property rights.
+
+This document and the information contained herein are provided on an
+"AS IS" basis and the Zigbee Alliance DISCLAIMS ALL WARRANTIES EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO (A) ANY WARRANTY THAT THE USE
+OF THE INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OF THIRD
+PARTIES (INCLUDING WITHOUT LIMITATION ANY INTELLECTUAL PROPERTY RIGHTS
+INCLUDING PATENT, COPYRIGHT OR TRADEMARK RIGHTS) OR (B) ANY IMPLIED
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE
+OR NON-INFRINGEMENT. IN NO EVENT WILL THE ZIGBEE ALLIANCE BE LIABLE
+FOR ANY LOSS OF PROFITS, LOSS OF BUSINESS, LOSS OF USE OF DATA,
+INTERRUPTION OF BUSINESS, OR FOR ANY OTHER DIRECT, INDIRECT, SPECIAL
+OR EXEMPLARY, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES OF ANY
+KIND, IN CONTRACT OR IN TORT, IN CONNECTION WITH THIS DOCUMENT OR THE
+INFORMATION CONTAINED HEREIN, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH LOSS OR DAMAGE.
+
+All company, brand and product names may be trademarks that are the
+sole property of their respective owners.
+
+This legal notice must be included on all copies of this document that
+are made.
+
+Zigbee Alliance
+508 Second Street, Suite 206
+Davis, CA 95616, USA
+ifeval::["{docname}" == "main"]
+////
+endif::[]
+
+[ditaa]
+....
+                                                                                                     
+    +--------------------------------+           +--------------------------------+                 
+    | cYEL                           |           | cYEL                           |                 
+    |         RootFS        +----+   |           |             RootFS             |                 
+    |                       |Cert|   |           |                                |                 
+    |                       |{d} |   |           |                                |                 
+    |                       +----+   |           |                                |                 
+    +--------------------------------+           +--------------------------------+                 
+                    ^                                            ^                                  
+                    | Verifies                        Measures   |              Records             
+                    |                                            |    /---------------------\           
+                    |                                            |    |                     |
+    +---------------+----------------+           +--------------------------------+         |
+    | cYEL                           |           | cYEL                           |         |
+    |                                |           |                                |         |
+    |             OS         +----+  |           |                                |         |                                                         
+    |                        |Cert|  |           |             OS                 |         |          +-------------------------------------------+
+    | +-------------+        |{d} |  |           |                                |         |          |cGRE                                       |
+    | |{io} OS Key  |        +----+  |           |                                |         |          |                                           |
+    | +-------------+                |           |                                |         |          |                                           |
+    +--------------------------------+           +--------------------------------+         |          |                                           |
+                    ^                                            ^                          \-----\    |                                           |
+                    | Verifies                        Measures   |              Records           |    |                                           |
+                    |                                            |    /---------------------\     |    |                                           |
+                    |                                            |    |                     |     |    |       +----------------------------+      |
+    +---------------+----------------+           +---------------+----+-----------+         |     \----|------>|                            |      |
+    | cYEL                  +----+   |           | cYEL                           |         \----------|------>|    Root of Trust for       |      |
+    |        Bootloader     |Cert|   |           |        Bootloader              |                    |       |    Storage & Reporting     |      |
+    |                       |{d} |   |           |                                |         /----------|------>|                            |      |
+    | +--------------+      +----+   |           |                                |         |          |       +----------------------------+      |
+    | |{io} Boot Key |               |           |                                |         |          |                                           |
+    | +--------------+               |           |                                |         |          |       +----------------------------+      |
+    +--------------------------------+           +--------------------------------+         |          |       |{io}                        |      |
+                    ^                                            ^                          |          |       |    Private Device          |      |
+                    | Verifies                        Measures   |              Records     |          |       |    Attestation Key         |      |
+                    |                                            |    /---------------------/          |       +----------------------------+      |
+                    |                                            |    |                                |                                           |
+    +---------------+----------------+           +---------------+----+-----------+                    |          Secure Subsystem                 |
+    | cYEL                           |           | cYEL                           |                    |                                           |
+    |     Silicon Root of Trust      |           |     Silicon Root of Trust      |                    +-------------------------------------------+
+    |                                |           |                                |          
+    | +--------------+               |           |                                |
+    | |{io} Root Key |               |           |                                |
+    | +--------------+               |           |                                |
+    +--------------------------------+           +--------------------------------+          
+                                                                                             
+          Secure Boot                                   Measured Boot
+....
